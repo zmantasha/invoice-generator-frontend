@@ -1,5 +1,5 @@
 "use client"
-import InvoiceGenerator from "@/components/invoice/invoice-generator";
+import InvoiceGenerator from "../../../../components/invoice/invoice-generator";
 import { useParams } from "next/navigation";
 import { useMemo } from "react";
 
