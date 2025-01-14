@@ -5,13 +5,13 @@ import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import axios from "axios";
 import { useEffect, useRef, useState } from "react";
 import { useUser } from "../../../hooks/UserContext";
-import { Button } from "@/components/ui/button";
+import { Button } from "../../../components/ui/button";
 import { BadgeInfo, BookMarked, Calendar, ChevronDown, Delete, Dot, Edit, User } from "lucide-react";
-import InvoiceGenerator from "@/components/invoicee/invoiceGenerator";
-import { Modal } from "@/components/ui/modal";
-import { Input } from "@/components/ui/input";
+import InvoiceGenerator from "../../../components/invoicee/invoiceGenerator";
+import { Modal } from "../../../components/ui/modal";
+import { Input } from "../../../components/ui/input";
 import { MdEmail } from "react-icons/md";
-import PDFGenerator from "@/components/invoicee/PDFGenerator";
+import PDFGenerator from "../../../components/invoicee/PDFGenerator";
 export default function ViewPage() {
   const { user } = useUser();
   const [invoiceItem, setInvoiceItem] = useState<any>(null); // Use 'any' if the invoiceItem structure is not defined yet
