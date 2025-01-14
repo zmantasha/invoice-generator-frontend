@@ -1,11 +1,11 @@
 "use client";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "../../components/ui/table";
+import { Input } from "../../components/ui/input";
+import { Button } from "../../components/ui/button";
 import { Plus, Trash2, FileSpreadsheet, AlertCircle } from "lucide-react";
-import { formatCurrency } from "@/lib/utils/format-currency";
-import { calculateItemAmount } from "@/lib/utils/invoice-calculations";
-import { InvoiceItem } from "@/types/invoice";
+import { formatCurrency } from "../../lib/utils/format-currency";
+import { calculateItemAmount } from "../../lib/utils/invoice-calculations";
+import { InvoiceItem } from "../../types/invoice";
 import { useState, useRef, useEffect } from "react";
 import React, { memo, useCallback } from 'react';
 import {
