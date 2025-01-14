@@ -3,8 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 import styles from "../../app/user/myinvoice/myinvoice.module.css";
 import { FcPaid } from "react-icons/fc";
-import { MdDownloadForOffline,MdDelete,MdEdit } from "react-icons/md";
-import { formatCurrency } from "@/lib/utils/format-currency";
+import {MdDelete,MdEdit } from "react-icons/md";
+import { formatCurrency } from "../../lib/utils/format-currency";
 import { useRouter } from "next/navigation";
 
 
