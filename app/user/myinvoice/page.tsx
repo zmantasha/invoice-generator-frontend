@@ -2,9 +2,9 @@
 
 import { useCallback, useEffect, useState } from "react";
 import styles from "./myinvoice.module.css";
-import InvoiceTable from "@/components/invoicee/InvoiceTable";
+import InvoiceTable from "../../../components/invoicee/InvoiceTable";
 import axios from "axios";
-import { useUser } from "@/hooks/UserContext";
+import { useUser } from "../../../hooks/UserContext";
 import { useRouter } from "next/navigation";
 
 export default function MyInvoice() {
