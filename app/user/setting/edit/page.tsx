@@ -2,7 +2,7 @@
 import { useFormik } from "formik";
 import styles from "../setting.module.css"
 import axios from "axios";
-import { useUser } from "@/hooks/UserContext";
+import { useUser } from "../../../../hooks/UserContext";
 import { useEffect, useState } from "react";
 
 
