@@ -7,7 +7,7 @@ import { InvoiceTotals } from "./invoice-totals";
 import { InvoiceNotes } from "./invoice-notes";
 import { Button } from "../../components/ui/button";
 import { Download } from "lucide-react";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../../components/ui/select";
 import { currencies } from "../../lib/constants/currencies";
 import { useInvoice } from "../../hooks/use-invoice";
 import styles from "../../app/account/login/login.module.css";
