@@ -1,4 +1,4 @@
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "../../../components/ui/badge";
 import { Check } from "lucide-react";
 import Link from "next/link";
 import styles from "./Upgrade.module.css"; // Assuming CSS module for styling
