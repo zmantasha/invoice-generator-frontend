@@ -1,5 +1,5 @@
 
-import InvoiceGenerator from "@/components/invoice/invoice-generator";
+import InvoiceGenerator from "../../../components/invoice/invoice-generator";
 
 export default function InvoiceTamplate(){
  
