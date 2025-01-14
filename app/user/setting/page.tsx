@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 import styles from "./setting.module.css"
 import { FaEdit } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import { useUser } from "@/hooks/UserContext";
+import { useUser } from "../../../hooks/UserContext";
 import axios from "axios";
 
 export default function Setting(){
