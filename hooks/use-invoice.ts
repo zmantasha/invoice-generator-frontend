@@ -1,13 +1,13 @@
 import { useCallback, useEffect, useState, useMemo } from "react";
-import { InvoiceData } from "@/types/invoice";
-import { generateInvoicePDF } from "@/lib/utils/pdf-generator";
+import { InvoiceData } from "../types/invoice";
+import { generateInvoicePDF } from "../lib/utils/pdf-generator";
 import {
   calculateSubtotal,
   calculateTax,
   calculateDiscount,
   calculateTotal,
   calculateShipping,
-} from "@/lib/utils/invoice-calculations";
+} from "../lib/utils/invoice-calculations";
 import axios from "axios";
 import { useUser } from "./UserContext";
 import { useFormik } from 'formik';
