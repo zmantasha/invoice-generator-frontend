@@ -4,9 +4,9 @@ import Cookies from "js-cookie";
 import { useEffect, useState } from "react";
 import styles from "./myaccount.module.css";
 import { useFormik } from "formik";
-import { updateSchema } from "@/validation/schemas";
+import { updateSchema } from "../../../validation/schemas";
 import { useRouter } from "next/navigation";
-import { useUser } from "@/hooks/UserContext";
+import { useUser } from "../../../hooks/UserContext";
 
 interface FormValues {
   firstName: string;
