@@ -1,4 +1,4 @@
-import { formatCurrency } from "@/lib/utils/format-currency";
+import { formatCurrency } from "../../lib/utils/format-currency";
 
 interface InvoiceItem {
     senderDetails: { name: string };
