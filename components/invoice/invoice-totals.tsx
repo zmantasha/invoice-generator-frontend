@@ -1,10 +1,10 @@
 "use client";
 
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Button } from "@/components/ui/button";
+import { Input } from "../../components/ui/input";
+import { Label } from "../../components/ui/label";
+import { Button } from "../../components/ui/button";
 import { Plus } from "lucide-react";
-import { formatCurrency } from "@/lib/utils/format-currency";
+import { formatCurrency } from "../../lib/utils/format-currency";
 import { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
 import React, { memo, useCallback } from 'react';
