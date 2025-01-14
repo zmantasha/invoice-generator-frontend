@@ -1,6 +1,6 @@
 "use client";
 
-import { Textarea } from "@/components/ui/textarea";
+import { Textarea } from "../../components/ui/textarea";
 import React, { memo } from 'react';
 interface InvoiceNotesProps {
   notes: string;
