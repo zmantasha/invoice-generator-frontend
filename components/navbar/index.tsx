@@ -7,7 +7,7 @@ import Cookies from "js-cookie";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import styles from "./navbar.module.css";
-import { useUser } from "@/hooks/UserContext";
+import { useUser } from "../../hooks/UserContext";
 import { usePathname } from "next/navigation";
 import { Menu } from "lucide-react";
 
