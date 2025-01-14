@@ -1,10 +1,10 @@
 import { ImagePlus, X } from "lucide-react";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { Textarea } from "@/components/ui/textarea";
-import { FormError } from "@/components/ui/form-error";
+import { Input } from "../../components/ui/input";
+import { Label } from "../../components/ui/label";
+import { Button } from "../../components/ui/button";
+import { Card } from "../../components/ui/card";
+import { Textarea } from "../../components/ui/textarea";
+import { FormError } from "../../components/ui/form-error";
 import React, { memo } from 'react';
 interface InvoiceHeaderProps {
   senderDetails: {
